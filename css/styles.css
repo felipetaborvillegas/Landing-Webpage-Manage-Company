@@ -34,12 +34,20 @@ header nav ul {
 
 .media-button {
     display: none;
+    transition: 0.6s;
+}
+
+.media-button:hover {
+    transform: scale(1.5);
+    background-color: #B3B2B7;
+    color: black;
+    font-weight: bold;
 }
 
 .intro-img-small {
     display: block;
-    width: 380px;
-    height: 263.39px;
+    width: 395px;
+    height: 390px;
     margin: 8px auto;
 }
 
@@ -50,7 +58,7 @@ header nav ul {
 main h1 {
     color:#232C50;
     font-size: 47px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -74,7 +82,16 @@ main .first-paragraph {
     margin: auto;
     border: 0;
     margin-bottom: 122px;
+    transition: 0.6s;
 }
+
+.btn-get-started:hover {
+    transform: scale(1.5);
+    background-color: #B3B2B7;
+    color: black;
+    font-weight: bold;
+}
+
 
 main .why-different {
     color: #232851;
